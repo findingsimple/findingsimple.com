@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Next.js personal website/portfolio built with TypeScript and Tailwind CSS. It's based on the "Spotlight" template from Tailwind Plus and serves as a personal portfolio site for "Spencer Sharp" (customizable). The site features:
+This is a Next.js personal website/portfolio built with TypeScript and Tailwind CSS. It's based on the "Spotlight" template from Tailwind Plus and serves as a personal portfolio site for Jason Conroy. The site features:
 
 - Personal portfolio with about, projects, speaking, and uses pages
 - MDX-powered blog/articles system with syntax highlighting
