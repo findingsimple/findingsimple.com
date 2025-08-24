@@ -247,9 +247,9 @@ export default async function Home() {
             Software Engineer, Manager, and Maker.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Jason, a software engineer and maker based in Port Noarlunga, South Australia 
-            — on the beautiful Fleurieu Peninsula. Whether it’s software, 3D prints, or reef tanks, 
-            I’m happiest when I’m building something.
+            I’m Jason, a software engineer and maker based in Port Noarlunga, South Australia. Whether it’s 
+            software, 3D prints, or reef tanks, I’m happiest when I’m building something and colaborating 
+            with great people.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -263,7 +263,7 @@ export default async function Home() {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/jconroy/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
