@@ -180,7 +180,7 @@ function Resume() {
     },
     {
       company: 'stratsec',
-      title: 'Senior Security Consultant',
+      title: 'Senior IT Security Consultant',
       logo: logoStratsec,
       start: '2005',
       end: '2008',
