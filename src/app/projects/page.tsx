@@ -3,47 +3,51 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoGoogle from '@/images/logos/google.svg'
+import logoAutomatewoo from '@/images/logos/automatewoo.svg'
+import logoRobotninja from '@/images/logos/robot-ninja.svg'
+import logoWoo from '@/images/logos/woo.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'WooCommerce',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'The no.1 open source ecommerce solution powered by WordPress.',
+    tech: 'PHP, TypeScript, React, SQL',
+    link: { href: 'https://woocommerce.com', label: 'woocommerce.com' },
+    logo: logoWoo,
   },
   {
-    name: 'Animaginary',
+    name: 'Google for WooCommerce',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'Promote your products across Google and reach the right customers.',
+    tech: 'PHP, Node.js, TypeScript, React, SQL',
+    link: { href: 'https://woocommerce.com/products/google-listings-and-ads/', label: 'woocommerce.com' },
+    logo: logoGoogle,
   },
   {
-    name: 'HelioStream',
+    name: 'WooCommerce Subscriptions',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'Allow customers to subscribe to your products or services and pay on a weekly, monthly or annual basis.',
+    tech: 'PHP, Javacript, React, SQL',
+    link: { href: 'https://woocommerce.com/products/woocommerce-subscriptions/', label: 'woocommerce.com' },
+    logo: logoWoo,
   },
   {
-    name: 'cosmOS',
+    name: 'AutomateWoo',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'Powerful automation tools for your WooCommerce store.',
+    tech: 'PHP, Javacript, React, SQL',
+    link: { href: 'https://automatewoo.com/', label: 'automatewoo.com' },
+    logo: logoAutomatewoo,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Robot Ninja',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'Automated checkout testing for your WooCommerce store.',
+    tech: 'PHP, Laravel, Vue.js, AWS, Docker, Selenium, REST API',
+    link: { href: 'https://robotninja.com/', label: 'robotninja.com' },
+    logo: logoRobotninja,
   },
 ]
 
@@ -66,8 +70,8 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Things I’ve contributed to trying to put my dent in the universe."
+      intro="I’ve worked on tons of projects over the years but these are the ones that I’m most proud of."
     >
       <ul
         role="list"
@@ -87,6 +91,7 @@ export default function Projects() {
               <Card.Link href={project.link.href}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
+            <Card.Description>{project.tech}</Card.Description>
             <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
               <LinkIcon className="h-6 w-6 flex-none" />
               <span className="ml-2">{project.link.label}</span>

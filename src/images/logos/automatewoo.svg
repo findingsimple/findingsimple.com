@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7befe4;
+        font-family: Arial-Black, 'Arial Black';
+        font-size: 200px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #6b2cdf;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="200" cy="200" r="200"/>
+  <text class="cls-1" transform="translate(17.81 273.38)"><tspan class="cls-3" x="0" y="0">A</tspan><tspan x="157.13" y="0">W</tspan></text>
+</svg>
