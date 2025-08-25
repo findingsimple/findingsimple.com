@@ -270,9 +270,41 @@ export default async function Home() {
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
+            <div className="text-base text-zinc-600 dark:text-zinc-400">
+              <h2 className="text-2xl font-bold dark:text-zinc-100">TECHNOLOGIES</h2>
+              <p className="mt-2 text-zinc-400 dark:text-zinc-500">Some of the technologies and systems I have experience with.</p>
+              <ul className="mt-2 block">
+                <li><strong>Frontend:</strong> Javascript, Typescript, React, Vue.js, Storybook, HTML, CSS</li>
+                <li><strong>Backend:</strong> Python, Node.js, PHP</li>
+                <li><strong>AI:</strong> ChatGPT, Claude, GitHub Copilot</li>
+                <li><strong>Server & Cloud:</strong> Apache, Nginx, Redis, MySQL, AWS, Docker, Linode/VPS</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>Monitoring and Performance:</strong> Sentry, New Relic</li>
+                <li><strong>Data & BI:</strong> Looker BI Platform</li>
+                <li><strong>Testing & E2E:</strong> PHPUnit, PHPCS, JEST, Codeception, Selenium, Playwright</li>
+                <li><strong>Frameworks:</strong> WordPress, Laravel</li>
+                <li><strong>Marketing:</strong> SEO, SEM, Analytics, Email Newsletters</li>
+              </ul>
+            </div>
+            <div className="text-base text-zinc-600 dark:text-zinc-400">
+              <h2 className="text-2xl font-bold dark:text-zinc-100">QUALIFICATIONS</h2>
+              <p className="mt-2 text-zinc-400 dark:text-zinc-500">My education and certifications.</p>
+              <p className="mt-2">
+                <strong>The Australian National University</strong><br/>
+                2001 - 2004<br/>
+                <span className="pl-7 block">
+                  Bachelor of Commerce · Accounting<br/>
+                  Bachelor of Information Technology · Information Systems
+                </span>
+              </p>
+              <p className="mt-2">
+                <strong>Certified Information Systems Security Professional (CISSP)</strong><br/>
+                Maintained since January 2007<br/>
+                <span className="pl-7 block">
+                  A globally recognized, independent information security certification by The International Information System Security Certification Consortium (or ISC2)
+                </span>
+              </p>
+            </div>
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Resume />
