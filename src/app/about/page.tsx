@@ -73,7 +73,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I'm a hands-on software engineer with experience leading the development and delivery of 
+              I&apos;m a hands-on software engineer with experience leading the development and delivery of 
               solutions across the Web, eCommerce and SaaS.
             </p>
             <p>
@@ -81,16 +81,16 @@ export default function About() {
               and am skilled at balancing hands-on technical execution with organisational leadership to get results.
             </p>
             <p>
-              Most recently I've worked as a Director of Engineering at Automattic. Throughout my career
-              I've worked with organisations in the Public Sector, Education and Tech industries including the Australian 
+              Most recently I&apos;ve worked as a Director of Engineering at Automattic. Throughout my career
+              I&apos;ve worked with organisations in the Public Sector, Education and Tech industries including the Australian 
               Federal Government, Google, Meta, Tiktok, Pinterest, Thomson Reuters, TED & the Stanford University d.school.
             </p>
             <p>
-              When I'm not making software, I'm tinkering with 3D prints, playing Magic the Gathering with my kids or 
+              When I&apos;m not making software, I&apos;m tinkering with 3D prints, playing Magic the Gathering with my kids or 
               maintaining my coral reef aquarium.
             </p>
             <p>
-              Let's have a coffee. ☕
+              Let&apos;s have a coffee. ☕
             </p>
           </div>
         </div>

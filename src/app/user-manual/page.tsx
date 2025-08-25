@@ -151,7 +151,7 @@ export default function Uses() {
             For fun and profit... 3D modelling and improving our family magic the gathering decks.
           </Tool>
           <Tool title="How I define success right now">
-            Feeling a balance between work and home life (note, balance doesn't always mean equal).<br/>
+            Feeling a balance between work and home life (note, balance doesn&apos;t always mean equal).<br/>
             Happy, healthy kids.
           </Tool>
         </ToolsSection>
