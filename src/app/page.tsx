@@ -11,10 +11,10 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoSimple from '@/images/logos/simple.svg'
+import logoAutomattic from '@/images/logos/automattic.svg'
+import logoStratsec from '@/images/logos/stratsec.svg'
+import logoProspress from '@/images/logos/prospress.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -158,35 +158,32 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
+      company: 'Automattic Inc.',
+      title: 'Director of Engineering',
+      logo: logoAutomattic,
       start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
+      end: '2025',
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
+      company: 'Prospress Inc (Acquired by ↑)',
+      title: 'Director / Engineer',
+      logo: logoProspress,
+      start: '2015',
       end: '2019',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'FindingSimple',
+      title: 'Owner / Engineer',
+      logo: logoSimple,
+      start: '2008',
+      end: '2019',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'stratsec',
+      title: 'Senior Security Consultant',
+      logo: logoStratsec,
+      start: '2005',
+      end: '2008',
     },
   ]
 
