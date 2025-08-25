@@ -4,20 +4,16 @@
     <style>
       .cls-1 {
         fill: #7befe4;
-        font-family: Arial-Black, 'Arial Black';
-        font-size: 200px;
-        font-weight: 800;
       }
 
       .cls-2 {
         fill: #6b2cdf;
       }
-
-      .cls-3 {
-        letter-spacing: 0em;
-      }
     </style>
   </defs>
   <circle class="cls-2" cx="200" cy="200" r="200"/>
-  <text class="cls-1" transform="translate(17.81 273.38)"><tspan class="cls-3" x="0" y="0">A</tspan><tspan x="157.13" y="0">W</tspan></text>
+  <g>
+    <path class="cls-1" d="M120.47,249.74h-50.22l-6.98,23.63H18.1l53.81-143.16h48.25l53.8,143.16h-46.33l-7.16-23.63ZM111.3,218.79l-15.8-51.47-15.64,51.47h31.44Z"/>
+    <path class="cls-1" d="M174.84,130.21h42.02l15.13,80.15,22.14-80.15h41.87l22.2,80.04,15.14-80.04h41.8l-31.56,143.16h-43.38l-25.11-90.14-25.01,90.14h-43.38l-31.85-143.16Z"/>
+  </g>
 </svg>
