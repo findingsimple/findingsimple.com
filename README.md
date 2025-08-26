@@ -40,3 +40,72 @@ To learn more about the technologies used in this site template, see the followi
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation
 - [Headless UI](https://headlessui.dev) - the official Headless UI documentation
 - [MDX](https://mdxjs.com) - the MDX documentation
+
+
+## Next.js – dev, production, and PM2
+
+### 🔧 Development (local)
+Start the hot-reload dev server:
+
+```bash
+npm run dev
+```
+
+### 🚀 Production (without PM2)
+Build and run the production server:
+```bash
+    npm run build
+    npm start
+```
+
+### ⚙️ PM2 (manage the production server)
+Install PM2 (once per machine):
+```bash
+    npm i -g pm2
+```
+
+Start the app under PM2:
+```bash
+    pm2 start npm --name "findingsimple" -- start
+    # with explicit port/host if needed:
+    # pm2 start npm --name "findingsimple" -- start -- -p 3000 -H 0.0.0.0
+```
+
+Graceful reload after updates (no downtime):
+```bash
+    pm2 reload findingsimple
+```
+
+Hard restart:
+```bash
+    pm2 restart findingsimple
+```
+
+View logs / status:
+```bash
+    pm2 logs findingsimple
+    pm2 status
+    pm2 list
+```
+
+Stop or remove from PM2:
+```bash
+    pm2 stop findingsimple
+    pm2 delete findingsimple
+```
+
+### 🧰 Boot persistence (auto-start on reboot)
+
+Generate the systemd service and save the process list:
+```bash
+    pm2 startup systemd -u $USER --hp $HOME
+    pm2 save
+```
+
+### 🔄 Typical update flow
+```bash
+    git pull
+    npm ci            # or: npm install
+    npm run build
+    pm2 reload findingsimple
+```
