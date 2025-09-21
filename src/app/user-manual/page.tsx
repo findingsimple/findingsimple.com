@@ -83,7 +83,7 @@ export default function Uses() {
             I usually respond within a few hours during work hours, unless I’m in deep focus mode.
           </Tool>
           <Tool title="Follow-up preferences">
-            Nudges are fine — I appreciate gentle reminders.
+            Nudges are fine. I appreciate gentle reminders.
           </Tool>
           <Tool title="Preferred tone">
             Friendly and casual, but clear. I like a bit of personality in my messages.
@@ -107,14 +107,14 @@ export default function Uses() {
             Calmly and directly. I’ll suggest a chat to clarify and realign.
           </Tool>
           <Tool title="How I give feedback">
-            Timely, specific, and focused on outcomes — not personalities.
+            Timely, specific, and focused on outcomes, not personalities.
           </Tool>
           <Tool title="How I like to receive feedback">
             Timely, honest and actionable. If it helps me grow, I’m all ears.
           </Tool>
           <Tool title="Common misconceptions about me">
             I’m an introvert at heart.<br/>
-            I like time to digest information and formulate responses. So I come across as chill or quiet — I just process before I speak.
+            I like time to digest information and formulate responses. So I come across as chill or quiet. I just process before I speak.
           </Tool>
           <Tool title="How to build trust with me">
             Communicate clearly, do what you say you will, and be kind.<br/>
@@ -144,7 +144,7 @@ export default function Uses() {
             Helping people. Solving problems.
           </Tool>
           <Tool title="Projects I love working on">
-            Anything that combines tech, design, and storytelling — bonus points if it involves coral or 3D printing.
+            Anything that combines tech, design, and storytelling. Bonus points if it involves coral or 3D printing.
           </Tool>
           <Tool title="What I’m currently learning or improving">
             AI-assisted workflows and leadership. <br/>
