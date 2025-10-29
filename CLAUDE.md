@@ -43,7 +43,7 @@ npx prettier --write .
 - **MDX** for article content with syntax highlighting via Prism
 - **Headless UI** for accessible components
 - **next-themes** for dark mode
-- **next-plausible** for privacy-friendly analytics
+- **@plausible-analytics/tracker** for privacy-friendly analytics
 
 ### Project Structure
 - `/src/app/` - Next.js App Router pages and layouts
@@ -82,9 +82,10 @@ Articles are written in MDX format and stored in `/src/app/articles/[slug]/page.
 - RSS feed automatically generated from articles
 
 ### Analytics
-- Plausible Analytics integrated via next-plausible package
-- Proxy configured in next.config.mjs to avoid ad blockers
-- Custom events can be tracked using the usePlausible hook
+- Plausible Analytics integrated via official @plausible-analytics/tracker package
+- Client-side tracking component in /src/components/PlausibleAnalytics.tsx
+- Automatic page view tracking enabled for SPA navigation
+- Custom events can be tracked using the Plausible tracker API
 
 ### Path Aliases
 - `@/*` maps to `./src/*` for clean imports

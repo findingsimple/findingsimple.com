@@ -1,7 +1,6 @@
 import rehypePrism from '@mapbox/rehype-prism'
 import nextMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
-import { withPlausibleProxy } from 'next-plausible'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -19,4 +18,4 @@ const withMDX = nextMDX({
   },
 })
 
-export default withPlausibleProxy()(withMDX(nextConfig))
+export default withMDX(nextConfig)

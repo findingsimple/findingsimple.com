@@ -1,8 +1,8 @@
 import { type Metadata } from 'next'
-import PlausibleProvider from 'next-plausible'
 
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
+import { PlausibleAnalytics } from '@/components/PlausibleAnalytics'
 
 import '@/styles/tailwind.css'
 
@@ -29,13 +29,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
       <body className="flex h-full bg-zinc-50 dark:bg-black">
-        <PlausibleProvider domain={process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN || ''}>
-          <Providers>
-            <div className="flex w-full">
-              <Layout>{children}</Layout>
-            </div>
-          </Providers>
-        </PlausibleProvider>
+        <Providers>
+          <PlausibleAnalytics />
+          <div className="flex w-full">
+            <Layout>{children}</Layout>
+          </div>
+        </Providers>
       </body>
     </html>
   )
