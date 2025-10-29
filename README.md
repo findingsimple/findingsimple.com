@@ -10,10 +10,11 @@ To get started with this template, first install the npm dependencies:
 npm install
 ```
 
-Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
+Next, create a `.env.local` file in the root of your project and set the required environment variables:
 
 ```
 NEXT_PUBLIC_SITE_URL=https://example.com
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=example.com
 ```
 
 Next, run the development server:
@@ -40,6 +41,7 @@ To learn more about the technologies used in this site template, see the followi
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation
 - [Headless UI](https://headlessui.dev) - the official Headless UI documentation
 - [MDX](https://mdxjs.com) - the MDX documentation
+- [Plausible Analytics](https://plausible.io/docs) - privacy-friendly analytics documentation
 
 
 ## Next.js – dev, production, and PM2
