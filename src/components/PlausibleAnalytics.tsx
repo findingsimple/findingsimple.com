@@ -1,13 +1,17 @@
 'use client'
 
 import { useEffect } from 'react'
-import { init } from '@plausible-analytics/tracker'
 
 export function PlausibleAnalytics() {
   useEffect(() => {
-    init({
-      domain: process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN || '',
-    })
+    // Only run on client side
+    if (typeof window !== 'undefined') {
+      import('@plausible-analytics/tracker').then(({ init }) => {
+        init({
+          domain: process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN || '',
+        })
+      })
+    }
   }, [])
 
   return null
