@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is a Next.js personal website/portfolio built with TypeScript and Tailwind CSS. It's based on the "Spotlight" template from Tailwind Plus and serves as a personal portfolio site for Jason Conroy. The site features:
 
 - Personal portfolio with about, projects, speaking, and uses pages
-- MDX-powered blog/articles system with syntax highlighting
+- MDX-powered blog/articles system
 - RSS feed generation
 - Dark mode support via next-themes
 - Responsive design with Tailwind CSS v4
@@ -40,7 +40,7 @@ npx prettier --write .
 - **Next.js 15** with App Router
 - **TypeScript** with strict configuration
 - **Tailwind CSS v4** with typography plugin
-- **MDX** for article content with syntax highlighting via Prism
+- **MDX** for article content
 - **Headless UI** for accessible components
 - **next-themes** for dark mode
 - **@plausible-analytics/tracker** for privacy-friendly analytics
@@ -56,7 +56,6 @@ npx prettier --write .
 Articles are written in MDX format and stored in `/src/app/articles/[slug]/page.mdx`. Each article requires:
 - Export of `article` object with metadata (title, description, author, date)
 - Content written in MDX format
-- Automatic syntax highlighting via rehype-prism
 
 ### Styling Approach
 - Tailwind CSS v4 with PostCSS integration
