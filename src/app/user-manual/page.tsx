@@ -51,15 +51,13 @@ export default function Uses() {
             9:30 a.m to 3:00 p.m - outside of those there is usually something encroaching on my time whether it be kids, appointments or just brain fog and it’s time for some fresh air.
           </Tool>
           <Tool title="I focus best when">
-            I have a clear goal, minimal distractions, and caffeine.
+            I have a clear goal. Then once I have my goal - minimal distractions, and caffeine.
           </Tool>
           <Tool title="I prefer working">
-            A mix of solo deep work with bursts of collaboration.
+            A mix of bursts of collaboration with time to gain context, digest and percolate on my thoughts. <br/>
           </Tool>
           <Tool title="Ideal work environment">
-            Calm, focused, async-friendly. I like to work from coffee shops or my own office space. <br/>
-            Open plan spaces are not my jam - I get conscious of annoying others and others annoying me. <br/>
-            I’m good at ignoring and/or leaving and ignoring Slack channels with low signal to noise. If something is important enough that I need to know about it, it will make its way to me.
+            Calm, focused, async-friendly. I love to work from coffee shops or my own office space. 
           </Tool>
           <Tool title="How I like to process information">
             Written is best - I love context - the more the merrier. I often refer back to notes or docs.
@@ -70,17 +68,19 @@ export default function Uses() {
           <Tool title="Things that disrupt my flow">
             Meetings that could have easily been an email.<br/>
             Vague requests or no context.<br/>
-            Pointless pings or disruptions during my peak productivity hours.
+            My door and DMs are always open for team members (just remember the context)
           </Tool>
         </ToolsSection>
         <ToolsSection title="Communication Style">
           <Tool title="Preferred communication channels">
             Slack for quick things.<br/>
             Docs for structured info.<br/>
-            Email for external stuff.
+            Email for external stuff.<br/>
+            Catch up in person (over a coffee?).<br/>
+            I’m good at leaving Slack channels with low signal to noise. If something is important enough that I need to know about it, it will make its way to me.
           </Tool>
           <Tool title="Response time expectations">
-            I usually respond within a few hours during work hours, unless I’m in deep focus mode.
+            I usually respond within a few hours during work hours, unless I’m in deep focus mode on a specific task that needs to get done.
           </Tool>
           <Tool title="Follow-up preferences">
             Nudges are fine. I appreciate gentle reminders.
